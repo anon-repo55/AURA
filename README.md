@@ -90,8 +90,8 @@ The acquisition primitives are general, complementary, and selected by profiles.
 | &#x1F9E9; Profile-selected primitives | Telegram, WhatsApp, and WeChat currently use different configured primitives while sharing one audit/storage model. |
 
 ## &#x1F3AC; Demo Videos
+https://github.com/user-attachments/assets/e9db35d1-3a6e-440d-9483-0cbcf589f4a4
 
-Add demonstration videos here when available.
 
 ## &#x26A1; Quick Start
 
