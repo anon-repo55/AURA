@@ -91,7 +91,14 @@ The acquisition primitives are general, complementary, and selected by profiles.
 
 ## &#x1F3AC; Demo Videos
 
-Add demonstration videos here when available. (TBD)
+Add demonstration videos here when available.
+
+| Scenario | Video | Notes |
+|---|---|---|
+| &#x1F4E1; Telegram profile with S1 | TBD | Add a link or embedded demo showing phase transition, chat traversal, and attachment capture. |
+| &#x1F7E2; WhatsApp profile with S2 | TBD | Add a link or embedded demo showing pairing, Export Chat, receiver finish, and ZIP parsing. |
+| &#x1F4AC; WeChat profile with S3 | TBD | Add a link or embedded demo showing OCR chat list/history traversal. |
+| &#x1F9ED; Audit review workflow | TBD | Add a link or embedded demo showing `AURA_audit_timeline.html` and `aura.db` review. |
 
 ## &#x26A1; Quick Start
 

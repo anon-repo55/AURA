@@ -4,7 +4,7 @@ Last updated: 2026-06-04
 
 This document describes the current implementation state of AURA after the collector refactor, normalized database work, audit review generation, profile-driven system UI handling, WhatsApp Bluetooth export stabilization, Telegram attachment identity updates, and WeChat OCR termination improvements.
 
-It is written as a development handoff document for another engineer or review assistant. It intentionally avoids personal data, device identifiers, host paths, chat names, phone numbers, and run-specific values. Example paths use placeholders such as `<RUN_ROOT>`, `<PHASE>`, `<CHAT_ID>`, and `<CHAT_NAME>`.
+It is written as a development handoff document for future maintainers and reviewers. It intentionally avoids personal data, device identifiers, host paths, chat names, phone numbers, and run-specific values. Example paths use placeholders such as `<RUN_ROOT>`, `<PHASE>`, `<CHAT_ID>`, and `<CHAT_NAME>`.
 
 AURA now uses the term **acquisition-context linkage** for the relationship between collected artifacts, the UI or host actions that produced them, and the collection context in which those actions occurred. Some internal database/table/function names still use historical identifiers such as `artifact_action_context_links`; those are implementation identifiers, not the preferred paper terminology.
 
@@ -629,7 +629,7 @@ Current public-facing hygiene decisions:
 - README uses AURA naming and acquisition-context terminology.
 - App profiles are under `profiles/apps/`.
 - System UI profiles are under `profiles/system_ui/`.
-- `runs/`, `backups/`, `.venv/`, `__pycache__/`, `desktop.ini`, temporary Codex files, and `aura.db` are ignored.
+- `runs/`, `backups/`, `.venv/`, `__pycache__/`, `desktop.ini`, temporary local work files, and `aura.db` are ignored.
 - Source code and README avoid personal paths, host usernames, device serials, phone numbers, and run-specific values.
 - Test fixtures may contain synthetic placeholder host names or file paths; these are dummy test values, not real operator or device data.
 
